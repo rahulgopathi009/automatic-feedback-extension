@@ -1,0 +1,20 @@
+{
+  "name": "automatic-feedback-extension",
+  "version": "1.0.0",
+  "description": "Automating the process of feedback in IITJ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhishekG-1plus/automatic-feedback-extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekG-1plus/automatic-feedback-extension/issues"
+  },
+  "homepage": "https://github.com/AbhishekG-1plus/automatic-feedback-extension#readme"
+}
