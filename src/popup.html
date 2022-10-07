@@ -2,33 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title></title>
-    <style>
-    .container {
-      display: flex;  
-      justify-content: center;  
-      align-items: center;  
-      }  
-    button {  
-      background-color: lightblue;  
-      color: black;  
-      font-size: 15px;  
-    }
-    .title{
-      font-family: Georgia, sans-serif;
-      font-size: 1.75em;
-      letter-spacing: 0px;
-    }
-    .h3{
-      font-family: Georgia, sans-serif;
-    }
-
-    </style>
+    <title>AutoFill Feedback Extension</title>
+    <link rel="stylesheet" href="popup.css">
   </head>
 
   <body class="body-class">
     <div id="app-container">
-      <h1 class="title" align="center">IITJ AUTO FEEDBACK FILLER</h1>
+      <h1 class="title" text-align="center">AutoFill Feedback</h1>
       <h3>Select an option for your feedback:</h3>
       <table>
         <thead>
@@ -42,17 +22,17 @@
         </thead>
         <tbody>
           <tr>
-            <td><label><input type="radio" name="Strongly Disagree" value="-1" /></label></td>
-            <td><label><input type="radio" name="Disagree" value="-2" /></label></td>
-            <td><label><input type="radio" name="Neutral" value="0" /></label></td>
-            <td><label><input type="radio" name="Agree" value="1" /></label></td>
-            <td><label><input type="radio" name="Strngly Agree" value="2" /></label></td>
+            <td><label><input type="radio" name="Radio-Question" value="-1" /></label></td>
+            <td><label><input type="radio" name="Radio-Question" value="-2" /></label></td>
+            <td><label><input type="radio" name="Radio-Question" value="0" /></label></td>
+            <td><label><input type="radio" name="Radio-Question" value="1" /></label></td>
+            <td><label><input type="radio" name="Radio-Question" value="2" /></label></td>
           </tr>
         </tbody>
       </table>
       
-      <div class="container">
-        <button align="center">Click To Fill</button>
+      <div class="container button-container">
+        <button class="fill-button" text-align="center">Click To Fill</button>
       </div>
       
     </div>
