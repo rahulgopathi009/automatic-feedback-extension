@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: lightblue;
+    color: black;
+    font-size: 15px;
+}
+
+.title {
+    font-family: Georgia, sans-serif;
+    font-size: 1.75em;
+    letter-spacing: 0px;
+}
+
+.h3 {
+    font-family: Georgia, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table td,
+table th {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.fill-button{
+    background-color: lightblue;
+    color: black;
+    font-size: 15px;
+}
