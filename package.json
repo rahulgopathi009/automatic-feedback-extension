@@ -1,5 +1,5 @@
 {
-  "name": "chrome-manifest-v3-webpack-hotreload-template",
+  "name": "autofill-feedback-extension",
   "version": "1.0.0",
   "description": "Template for Chrome Extension (Manifest v3) with webpack hot reloading",
   "main": "src/popup.js",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hirenchalodiya1/chrome-manifest-v3-webpack-hotreload-template.git"
+    "url": "git+https://github.com/hirenchalodiya1/autofill-feedback-extension.git"
   },
   "keywords": [
     "Chrome",
@@ -44,7 +44,7 @@
   "author": "Hiren Chalodiya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hirenchalodiya1/chrome-manifest-v3-webpack-hotreload-template/issues"
+    "url": "https://github.com/hirenchalodiya1/autofill-feedback-extension/issues"
   },
-  "homepage": "https://github.com/hirenchalodiya1/chrome-manifest-v3-webpack-hotreload-template#readme"
+  "homepage": "https://github.com/hirenchalodiya1/autofill-feedback-extension#readme"
 }
