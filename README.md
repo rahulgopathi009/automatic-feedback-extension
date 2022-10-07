@@ -1,4 +1,4 @@
-# chrome-manifest-v3-webpack-hotreload-template
+# autofill-feedback-extension
 Chrome Extension Template (Manifest v3) Webpack Hot reload
 
 ## Pre-requisite
